@@ -66,6 +66,7 @@ header a {
     font-weight: 700;
 }
 
+
 .hero {
     background-image: url(/images/desktop/image-header.jpg);
     background-repeat: no-repeat;
@@ -162,16 +163,19 @@ header a {
     gap: 20px;
     height: 50vh;
 }
+
 .grid-box4 p {
     color: #333;
     font-size: 14px;
     line-height: 1.8;
     width: 80%;
 }
-.grid-box4 h2{
+
+.grid-box4 h2 {
     font-size: 35px;
     text-align: center;
 }
+
 .grid-box5 {
     background-image: url(/images/desktop/image-graphic-design.jpg);
     background-repeat: no-repeat;
@@ -205,7 +209,8 @@ header a {
 .grid-box5 p {
     text-align: center;
 }
-.align{
+
+.align {
     margin: 70px;
 }
 
@@ -232,9 +237,10 @@ header a {
         font-size: 30px;
         padding-bottom: 20px;
     }
-    .grid-box5 .grid-box6 .align{
-       width: 50%;
-       height: 10vh;
+
+    .grid-box5 .grid-box6 .align {
+        width: 50%;
+        height: 10vh;
     }
 
 }
@@ -318,18 +324,18 @@ header a {
 .footer-nav {
     display: flex;
     gap: 3rem;
-    margin-bottom: 5rem;  
+    margin-bottom: 5rem;
     text-align: center;
     align-items: center;
     justify-content: center;
- }
+}
 
 .footer-nav a {
     text-decoration: none;
     font-size: 1.05rem;
     font-weight: 600;
     text-align: center;
-    color: green; 
+    color: green;
 }
 
 .footer-nav a:hover {
@@ -371,5 +377,23 @@ header a {
 
     .social-icons {
         gap: 1.2rem;
+    }
+}
+
+@media(max-width:760px){
+    header ul{
+        display: none;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+    .picture{
+        width: 200px;
+        height: 200px;
+    }
+    .flex{
+          display: grid;
+        grid-template-columns:repeat(2,1fr);
     }
 }
