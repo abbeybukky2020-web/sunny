@@ -95,9 +95,11 @@ header a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 30px;
-    padding: 30px;
-    height: 40vh;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    height: 50vh;
+    padding: 3rem;
 }
 
 
@@ -117,7 +119,7 @@ header a {
     width: 80%;
 }
 
-.text-box .grid-box4 h3 {
+.text-box {
     color: #333;
     font-size: 12px;
     font-weight: bold;
@@ -134,8 +136,9 @@ header a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 30px;
-    padding: 30px;
+    justify-content: center;
+    gap: 20px;
+    height: 50vh;
 }
 
 .grid-box3 {
@@ -147,7 +150,7 @@ header a {
     flex-direction: column;
     align-items: center;
     gap: 30px;
-    padding: 30px;
+    height: 50vh;
 }
 
 .grid-box4 {
@@ -155,10 +158,20 @@ header a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 30px;
-    padding: 30px;
+    justify-content: center;
+    gap: 20px;
+    height: 50vh;
 }
-
+.grid-box4 p {
+    color: #333;
+    font-size: 14px;
+    line-height: 1.8;
+    width: 80%;
+}
+.grid-box4 h2{
+    font-size: 35px;
+    text-align: center;
+}
 .grid-box5 {
     background-image: url(/images/desktop/image-graphic-design.jpg);
     background-repeat: no-repeat;
@@ -168,7 +181,7 @@ header a {
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
-    padding: 80px;
+    height: 50vh;
 }
 
 .grid-box6 {
@@ -180,12 +193,12 @@ header a {
     flex-direction: column;
     text-align: center;
     align-items: center;
-    padding: 80px;
+    justify-content: flex-end;
+    height: 50vh;
 }
 
 .grid-box6 p {
     text-align: center;
-    justify-content: flex-end;
 
 }
 
