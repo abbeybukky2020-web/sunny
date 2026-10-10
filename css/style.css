@@ -396,4 +396,10 @@ header a {
           display: grid;
         grid-template-columns:repeat(2,1fr);
     }
+    .grid-box5 h2{
+        color: black;
+    }
+    .grid-box6 h2{
+        color: black;
+    }
 }
